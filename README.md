@@ -1,10 +1,10 @@
-### Tuxedo-Keyboard-Nix
+### Tuxedo-CC-WMI-Nix
 
-Package for the LED-Backlighting for tuxedo notebooks.
+Package for the wmi drivers for tuxedo notebooks.
 
 Tested with the tuxedo InfityBook Pro 15 v4.
 
-Installs the [kernel module](https://github.com/tuxedocomputers/tuxedo-keyboard).
+Installs the [kernel module](https://github.com/tuxedocomputers/tuxedo-cc-wmi).
 
 #### Usage
 
@@ -13,14 +13,13 @@ Clone this repo, import the module in your `configuration.nix`, and use it.
 ```nix
     imports = 
     [ 
-       /path/where/this/is/cloned/modules/tuxedo-keyboard.nix
+       /path/where/this/is/cloned/modules/tuxedo-cc-wmi.nix
     ];
 
-    tuxedo-keyboard.enable = true;
+    tuxedo-cc-wmi.enable = true;
 ```
 
 ##### TODOs
 
 * clean this repo up a bit more
-
-* find a way to allow configurations to the colors and modes
+* figure out if this is actually helping with anything :shrug:
