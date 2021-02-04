@@ -1,3 +1,8 @@
+### Deprecated
+
+Please use https://github.com/tuxedocomputers/tuxedo-keyboard instead, this includes tuxedo-io, formerly tuxedo-cc-wmi
+
+
 ### Tuxedo-CC-WMI-Nix
 
 Package for the wmi drivers for tuxedo notebooks.
